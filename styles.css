@@ -48,3 +48,17 @@ p{
     filter: blur(5px);
     z-index: -1;
 }
+html:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transform-origin: left;
+    background: rgba(238, 231, 231, 0.3);
+    z-index: 2;
+}
+
+
+
+
+
