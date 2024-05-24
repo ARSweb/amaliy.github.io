@@ -17,7 +17,7 @@ body{
 .container .box{
     flex-wrap: wrap;
     width: 300px;
-    height: 500px;
+    height: 450px;
     margin: 50px 0;
     background: rgb(34, 0, 255);
     display: flex;
@@ -28,7 +28,12 @@ body{
     text-align: center;
     padding: 10px;
 }
-
+h2{
+    font-size:2rem ;
+}
+p{
+    font-size: 1rem;
+}
 
 .container .box.shadow1:before{
     content: '';
@@ -36,7 +41,7 @@ body{
     top: 50px;
     left:  0;
     width: 300px;
-    height: 515px;
+    height: 465px;
     background:  rgb(135, 23, 191);
     transform-origin: left;
     transform: skewY(-3deg) skewX(-3deg);
